@@ -1,0 +1,48 @@
+title: Xander & Matt
+email: anuj@andhapp.com
+tagline: Searching for Common Ground
+description: >- # this means to ignore newlines until "baseurl:"
+  Two people from different backgrounds searching for a commong ground
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username:
+github_username:
+paginate: 5
+permalink: pretty
+
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
+author:
+  name: Xander
+  # url:
+  email: anuj@andhapp.com
+
+# Custom vars
+version: 3.0.0

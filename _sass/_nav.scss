@@ -1,0 +1,23 @@
+// Masthead
+//
+// Super small header above the content for site name and short description.
+
+nav {
+  margin-top: 1rem;
+
+  ul {
+    padding-left: 0;
+
+    li {
+        display: inline;
+
+        &:not(:last-child):after {
+          content: ' |';
+        }
+    }
+  }
+}
+
+.menu {
+  text-align: center;
+}
